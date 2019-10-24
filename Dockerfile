@@ -5,8 +5,8 @@ EXPOSE 8080
 RUN set -ex && \
     rm /etc/apt/sources.list.d/* && \
     echo "deb http://mirrors.tencentyun.com/debian jessie main contrib non-free\ndeb http://mirrors.tencentyun.com/debian jessie-updates main contrib non-free\ndeb-src http://mirrors.tencentyun.com/debian jessie main contrib non-free\ndeb-src http://mirrors.tencentyun.com/debian jessie-updates main contrib non-free" > /etc/apt/sources.list && \
-    apk update && \
-    apk add --no-cache zsh git openssh
+    apt update && \
+    apt install -y zsh git openssl
 
 # Install oh-my-zsh
 RUN git clone --depth=1 git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \

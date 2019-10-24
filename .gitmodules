@@ -1,9 +1,9 @@
 [submodule "backend"]
 	path = backend
-	url = https://git.lug.ustc.edu.cn/kamino/WebIDE-Backend.git
+	url = https://github.com/Coding/WebIDE-Backend.git
 [submodule "frontend"]
 	path = frontend
-	url = https://git.lug.ustc.edu.cn/kamino/WebIDE-Frontend.git
+	url = https://github.com/Coding/WebIDE-Frontend.git
 [submodule "frontend-webjars"]
 	path = frontend-webjars
 	url = https://git.lug.ustc.edu.cn/kamino/WebIDE-Frontend-Webjars.git
