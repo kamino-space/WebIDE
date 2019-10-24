@@ -17,7 +17,8 @@ RUN set -ex && \
     source /etc/profile && \
     npm config set registry http://mirrors.tencentyun.com/npm/ && \
     npm install -g yarn && \
-    yarn config set registry http://mirrors.tencentyun.com/npm/
+    yarn config set registry http://mirrors.tencentyun.com/npm/ && \
+    rm /tmp/* -r
 
 ENV SHELL /bin/zsh
 
