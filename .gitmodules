@@ -6,4 +6,4 @@
 	url = https://github.com/Coding/WebIDE-Frontend.git
 [submodule "frontend-webjars"]
 	path = frontend-webjars
-	url = https://git.lug.ustc.edu.cn/kamino/WebIDE-Frontend-Webjars.git
+	url = https://github.com/Coding/WebIDE-Frontend-Webjars.git
